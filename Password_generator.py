@@ -19,3 +19,5 @@ else:
 f = open("Password.txt","a")
 f.write(password)#Writing the file 
 f.close()
+f = open("Password.txt", "r+")
+print(f.read())
